@@ -4,7 +4,7 @@
 
 ### 操作系统信息
 
-- 下载链接：https://github.com/scpcom/sophgo-sg200x-debian/releases/tag/v1.6.35
+- 下载链接：https://github.com/scpcom/sophgo-sg200x-debian/releases/tag/v1.9.6
 - 参考安装文档：https://github.com/scpcom/sophgo-sg200x-debian
 
 ### 硬件信息
@@ -41,16 +41,11 @@ sudo dd if=duos-e_sd.img of=/dev/sdX bs=1M status=progress
 ### 启动信息
 
 ```log
-Debian GNU/Linux 13 duos-a0d7 ttyS0
+Debian GNU/Linux 13 duos-1f79 ttyS0
 
-duos-a0d7 login: debian
+duos-1f79 login: root
 Password:
-
-Debian GNU/Linux 13 duos-a0d7 ttyS0
-
-duos-a0d7 login: root
-Password:
-Linux duos-a0d7 5.10.235-20250615-6+duos #1 PREEMPT Mon Jun 16 00:47:42 UTC 2025 riscv64
+Linux duos-1f79 5.10.260-20260711-6+duos #1 PREEMPT Tue Jul 14 03:03:04 UTC 2026 riscv64
 
 The programs included with the Debian GNU/Linux system are free software;
 the exact distribution terms for each program are described in the
@@ -58,20 +53,20 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-root@duos-a0d7:~# lscpu
+root@duos-1f79:~# lscpu
 Architecture:          riscv64
   Byte Order:          Little Endian
 CPU(s):                1
   On-line CPU(s) list: 0
-root@duos-a0d7:~# uname -a
-Linux duos-a0d7 5.10.235-20250615-6+duos #1 PREEMPT Mon Jun 16 00:47:42 UTC 2025 riscv64 GNU/Linux
-root@duos-a0d7:~#
+root@duos-1f79:~# uname -a
+Linux duos-1f79 5.10.260-20260711-6+duos #1 PREEMPT Tue Jul 14 03:03:04 UTC 2026 riscv64 GNU/Linux
+root@duos-1f79:~#
 
 ```
 
 屏幕录像：
 
-[![asciicast](https://asciinema.org/a/wg2iVMT950W3x8gLiZEFRPch3.svg)](https://asciinema.org/a/wg2iVMT950W3x8gLiZEFRPch3)
+[![asciicast](https://asciinema.org/a/x5lUx5XQO1zB9w2C.svg)](https://asciinema.org/a/x5lUx5XQO1zB9w2C)
 
 ## 测试判定标准
 
